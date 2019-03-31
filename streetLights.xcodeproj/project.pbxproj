@@ -10,18 +10,54 @@
 		A728436F224F68F4007B396F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728436E224F68F4007B396F /* AppDelegate.swift */; };
 		A7284371224F68F4007B396F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284370224F68F4007B396F /* ViewController.swift */; };
 		A7284374224F68F4007B396F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7284372224F68F4007B396F /* Main.storyboard */; };
-		A7284376224F68F5007B396F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7284375224F68F5007B396F /* Assets.xcassets */; };
 		A7284379224F68F5007B396F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7284377224F68F5007B396F /* LaunchScreen.storyboard */; };
+		A7284381224F7098007B396F /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284380224F7098007B396F /* RealmProvider.swift */; };
+		A7284383224F7132007B396F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284382224F7132007B396F /* DataModel.swift */; };
+		A7284389224FB097007B396F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284388224FB097007B396F /* Extensions.swift */; };
+		A728438B224FCD8D007B396F /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728438A224FCD8D007B396F /* SearchCell.swift */; };
+		A728438D224FCD98007B396F /* SlideOutMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728438C224FCD98007B396F /* SlideOutMenu.swift */; };
+		A7284391224FCE37007B396F /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284390224FCE37007B396F /* DetailsCell.swift */; };
+		A7284393224FED90007B396F /* UsersData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284392224FED8F007B396F /* UsersData.swift */; };
+		A7284397224FFBA5007B396F /* DetailsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7284396224FFBA4007B396F /* DetailsCard.swift */; };
+		A72843A1224FFC32007B396F /* RoadTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439A224FFC32007B396F /* RoadTypeCell.swift */; };
+		A72843A2224FFC32007B396F /* TypeAndColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439B224FFC32007B396F /* TypeAndColorCell.swift */; };
+		A72843A3224FFC32007B396F /* TypeOfWiringCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439C224FFC32007B396F /* TypeOfWiringCell.swift */; };
+		A72843A4224FFC32007B396F /* PowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439D224FFC32007B396F /* PowerCell.swift */; };
+		A72843A5224FFC32007B396F /* AreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439E224FFC32007B396F /* AreaCell.swift */; };
+		A72843A6224FFC32007B396F /* ConditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A728439F224FFC32007B396F /* ConditionCell.swift */; };
+		A72843A7224FFC32007B396F /* LastRepair.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72843A0224FFC32007B396F /* LastRepair.swift */; };
+		A72843AA225040BE007B396F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72843A9225040BE007B396F /* SearchTableViewController.swift */; };
+		A72843AC22505581007B396F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72843AB22505580007B396F /* Assets.xcassets */; };
+		D24E9339CEEB94D0C759DD77 /* Pods_streetLights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A345E4AE478FA9C5C954AEE /* Pods_streetLights.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02C9D41C53EB040845C16E42 /* Pods-streetLights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streetLights.release.xcconfig"; path = "Pods/Target Support Files/Pods-streetLights/Pods-streetLights.release.xcconfig"; sourceTree = "<group>"; };
+		7A345E4AE478FA9C5C954AEE /* Pods_streetLights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_streetLights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728436B224F68F4007B396F /* streetLights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = streetLights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A728436E224F68F4007B396F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7284370224F68F4007B396F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A7284373224F68F4007B396F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A7284375224F68F5007B396F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7284378224F68F5007B396F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A728437A224F68F5007B396F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7284380224F7098007B396F /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
+		A7284382224F7132007B396F /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A7284388224FB097007B396F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A728438A224FCD8D007B396F /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		A728438C224FCD98007B396F /* SlideOutMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideOutMenu.swift; sourceTree = "<group>"; };
+		A7284390224FCE37007B396F /* DetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		A7284392224FED8F007B396F /* UsersData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersData.swift; sourceTree = "<group>"; };
+		A7284396224FFBA4007B396F /* DetailsCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailsCard.swift; path = "../../../../Downloads/streetLightUI-master 2/StreetLightUI/StreetLightUI/DetailsCard.swift"; sourceTree = "<group>"; };
+		A728439A224FFC32007B396F /* RoadTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoadTypeCell.swift; sourceTree = "<group>"; };
+		A728439B224FFC32007B396F /* TypeAndColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAndColorCell.swift; sourceTree = "<group>"; };
+		A728439C224FFC32007B396F /* TypeOfWiringCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeOfWiringCell.swift; sourceTree = "<group>"; };
+		A728439D224FFC32007B396F /* PowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerCell.swift; sourceTree = "<group>"; };
+		A728439E224FFC32007B396F /* AreaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaCell.swift; sourceTree = "<group>"; };
+		A728439F224FFC32007B396F /* ConditionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionCell.swift; sourceTree = "<group>"; };
+		A72843A0224FFC32007B396F /* LastRepair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastRepair.swift; sourceTree = "<group>"; };
+		A72843A9225040BE007B396F /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchTableViewController.swift; path = "../../../../Downloads/streetLightUI-master 3/StreetLightUI/StreetLightUI/SearchTableViewController.swift"; sourceTree = "<group>"; };
+		A72843AB22505580007B396F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		B5A8C7DD5DEC9A38404B0B4B /* Pods-streetLights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-streetLights.debug.xcconfig"; path = "Pods/Target Support Files/Pods-streetLights/Pods-streetLights.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24E9339CEEB94D0C759DD77 /* Pods_streetLights.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61A745806FA3C0BAF6864070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5A8C7DD5DEC9A38404B0B4B /* Pods-streetLights.debug.xcconfig */,
+				02C9D41C53EB040845C16E42 /* Pods-streetLights.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A7284362224F68F4007B396F = {
 			isa = PBXGroup;
 			children = (
 				A728436D224F68F4007B396F /* streetLights */,
 				A728436C224F68F4007B396F /* Products */,
+				61A745806FA3C0BAF6864070 /* Pods */,
+				C500B688E50A3411AB811EB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +104,44 @@
 			children = (
 				A728436E224F68F4007B396F /* AppDelegate.swift */,
 				A7284370224F68F4007B396F /* ViewController.swift */,
+				A7284396224FFBA4007B396F /* DetailsCard.swift */,
+				A7284388224FB097007B396F /* Extensions.swift */,
+				A72843A0224FFC32007B396F /* LastRepair.swift */,
+				A72843AB22505580007B396F /* Assets.xcassets */,
+				A72843A9225040BE007B396F /* SearchTableViewController.swift */,
+				A7284380224F7098007B396F /* RealmProvider.swift */,
+				A7284392224FED8F007B396F /* UsersData.swift */,
+				A72843A82250003C007B396F /* Cells */,
+				A728438C224FCD98007B396F /* SlideOutMenu.swift */,
+				A7284382224F7132007B396F /* DataModel.swift */,
 				A7284372224F68F4007B396F /* Main.storyboard */,
-				A7284375224F68F5007B396F /* Assets.xcassets */,
 				A7284377224F68F5007B396F /* LaunchScreen.storyboard */,
 				A728437A224F68F5007B396F /* Info.plist */,
 			);
 			path = streetLights;
+			sourceTree = "<group>";
+		};
+		A72843A82250003C007B396F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7284390224FCE37007B396F /* DetailsCell.swift */,
+				A728439E224FFC32007B396F /* AreaCell.swift */,
+				A728439F224FFC32007B396F /* ConditionCell.swift */,
+				A728439D224FFC32007B396F /* PowerCell.swift */,
+				A728439A224FFC32007B396F /* RoadTypeCell.swift */,
+				A728439B224FFC32007B396F /* TypeAndColorCell.swift */,
+				A728439C224FFC32007B396F /* TypeOfWiringCell.swift */,
+				A728438A224FCD8D007B396F /* SearchCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C500B688E50A3411AB811EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A345E4AE478FA9C5C954AEE /* Pods_streetLights.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A728437D224F68F5007B396F /* Build configuration list for PBXNativeTarget "streetLights" */;
 			buildPhases = (
+				B396E86B4F9B54C0B23BF8EA /* [CP] Check Pods Manifest.lock */,
 				A7284367224F68F4007B396F /* Sources */,
 				A7284368224F68F4007B396F /* Frameworks */,
 				A7284369224F68F4007B396F /* Resources */,
+				3DA17CB41632469B5AAC1A4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +205,63 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7284379224F68F5007B396F /* LaunchScreen.storyboard in Resources */,
-				A7284376224F68F5007B396F /* Assets.xcassets in Resources */,
+				A72843AC22505581007B396F /* Assets.xcassets in Resources */,
 				A7284374224F68F4007B396F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA17CB41632469B5AAC1A4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-streetLights/Pods-streetLights-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CSV.swift/CSV.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CSV.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-streetLights/Pods-streetLights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B396E86B4F9B54C0B23BF8EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-streetLights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A7284367224F68F4007B396F /* Sources */ = {
@@ -136,7 +269,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7284371224F68F4007B396F /* ViewController.swift in Sources */,
+				A72843AA225040BE007B396F /* SearchTableViewController.swift in Sources */,
+				A7284389224FB097007B396F /* Extensions.swift in Sources */,
+				A7284391224FCE37007B396F /* DetailsCell.swift in Sources */,
+				A7284383224F7132007B396F /* DataModel.swift in Sources */,
+				A72843A5224FFC32007B396F /* AreaCell.swift in Sources */,
+				A72843A6224FFC32007B396F /* ConditionCell.swift in Sources */,
+				A728438D224FCD98007B396F /* SlideOutMenu.swift in Sources */,
+				A728438B224FCD8D007B396F /* SearchCell.swift in Sources */,
 				A728436F224F68F4007B396F /* AppDelegate.swift in Sources */,
+				A72843A1224FFC32007B396F /* RoadTypeCell.swift in Sources */,
+				A7284381224F7098007B396F /* RealmProvider.swift in Sources */,
+				A72843A4224FFC32007B396F /* PowerCell.swift in Sources */,
+				A72843A3224FFC32007B396F /* TypeOfWiringCell.swift in Sources */,
+				A72843A7224FFC32007B396F /* LastRepair.swift in Sources */,
+				A72843A2224FFC32007B396F /* TypeAndColorCell.swift in Sources */,
+				A7284397224FFBA5007B396F /* DetailsCard.swift in Sources */,
+				A7284393224FED90007B396F /* UsersData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +429,13 @@
 		};
 		A728437E224F68F5007B396F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A8C7DD5DEC9A38404B0B4B /* Pods-streetLights.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99F33CAX5W;
 				INFOPLIST_FILE = streetLights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +449,13 @@
 		};
 		A728437F224F68F5007B396F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C9D41C53EB040845C16E42 /* Pods-streetLights.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99F33CAX5W;
 				INFOPLIST_FILE = streetLights/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

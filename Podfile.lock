@@ -1,0 +1,26 @@
+PODS:
+  - CSV.swift (2.3.1)
+  - Realm (3.14.0):
+    - Realm/Headers (= 3.14.0)
+  - Realm/Headers (3.14.0)
+  - RealmSwift (3.14.0):
+    - Realm (= 3.14.0)
+
+DEPENDENCIES:
+  - CSV.swift (~> 2.3.1)
+  - RealmSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CSV.swift
+    - Realm
+    - RealmSwift
+
+SPEC CHECKSUMS:
+  CSV.swift: d16f671b3090a2c0525d5f2165b18319074aae2b
+  Realm: 221b25919bb5a010a3c597d707f8df3492dcd93a
+  RealmSwift: 28f22dfa6a27b9a778cfb09471558b6afcf1022c
+
+PODFILE CHECKSUM: 876e710158bf32910e4bfce51c78e70b09d73b2b
+
+COCOAPODS: 1.5.3
